@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "swiper/css";
+@import "swiper/css/navigation";
+
+
+
+
+:root {
+        --color-primary: #1E56F4;     
+        
+        --color-secondary: #EEF0F6;    
+        --color-secondary-dark: #b45309;
+        --color-accent: #10b981;       
+        --color-muted: #9ca3af;       
+        --color-bg: #f9fafb;          
+        --color-text: #000000;
+                
+      }
+      
