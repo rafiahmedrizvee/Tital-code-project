@@ -8,6 +8,10 @@ import ContactSection from "./Build/Build";
 import BankSlider from "./Stories/Stories";
 
 
+import BlogPost from "./BlogPost/BlogPost";
+
+
+
 
 const Home = () => {
   return (
@@ -17,6 +21,7 @@ const Home = () => {
       <Experience/>
       <BankSlider></BankSlider>
      <ContactSection/>
+    <BlogPost></BlogPost>
     </div>
   );
 };

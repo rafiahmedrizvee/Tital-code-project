@@ -15,7 +15,13 @@ const images = [
 
 const BankAppSlider = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-10 bg-white mt-">
+    <div>
+      <div className="text-center">
+        <h5 className="text-inter text-[24px] font-bold text-primary ">Success Stories</h5>
+        <h2 className="text-inter text-[52px] font-bold text-[#000000] capitalize ">Projects we have done for our clients</h2>
+      </div>
+
+<div className="flex flex-col items-center justify-center py-10 bg-white mt-">
       <div className="w-full max-w-6xl px-4">
         <Swiper
           spaceBetween={30}
@@ -40,6 +46,7 @@ const BankAppSlider = () => {
         </Swiper>
       </div>
       <h2 className="text-xl font-semibold mt-8">Bank App UI Design</h2>
+    </div>
     </div>
   );
 };

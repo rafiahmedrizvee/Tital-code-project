@@ -33,7 +33,7 @@ const Banner = () => {
         <div className=" md:flex justify-center items-center mt-10">
           <img className="w-[202px] h-[283px] me-[-50px]" src={banner1} alt="" />
 
-          <div className=" mt-70 rounded-full px-7  py-5 text-center z-50  " style={{ 
+          <div className=" mt-70 rounded-full px-7  py-5 text-center z-50 bg-cover bg-no-repeat " style={{ 
                  background: `url(${elipse})`,
           }}>
           <h3 className="font-inter font-bold text-primary text-[24px] ">5k</h3>
