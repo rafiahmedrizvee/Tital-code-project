@@ -19,9 +19,9 @@ const Home = () => {
       <Banner/>
       <OurServices/>
       <Experience/>
-      <BankSlider></BankSlider>
+      <BankSlider/>
      <ContactSection/>
-    <BlogPost></BlogPost>
+    <BlogPost/>
     </div>
   );
 };

@@ -3,13 +3,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import Slider1 from "../../../assets/Images/slide1.png"
+import Slider2 from "../../../assets/Images/slide2.png"
+import Slider3 from "../../../assets/Images/slide3.png"
+import Slider4 from "../../../assets/Images/slide1.png"
 
 // Dummy UI screenshots — replace these paths with your own image URLs
 const images = [
-  "/src/assets/Images/slide1.png",
-  "/src/assets/Images/slide2.png",
-  "/src/assets/Images/slide3.png",
-  "/src/assets/Images/slide1.png",
+  Slider1,
+  Slider2,
+  Slider3,
+  Slider4,
  
 ];
 
@@ -45,7 +49,7 @@ const BankAppSlider = () => {
           ))}
         </Swiper>
       </div>
-      <h2 className="text-xl font-semibold mt-8">Bank App UI Design</h2>
+      <h2 className="text-xl font-semibold mt-8 text-inter ">Bank App UI Design</h2>
     </div>
     </div>
   );

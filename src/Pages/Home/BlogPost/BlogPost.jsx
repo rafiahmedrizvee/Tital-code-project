@@ -1,4 +1,5 @@
 import React from "react";
+import blogImg from "../../../assets/Images/blogcard.jpg"
 
 
 const BlogPost = () => {
@@ -29,7 +30,7 @@ const BlogPost = () => {
 
         <div className=" pe-[21px]">
           <img className="rounded-[14px] w-[260px] h-[265px]  "
-            src="/src//assets//Images/blogcard.jpg"
+            src= {blogImg}
             alt="Movie"
           />
         </div>
@@ -45,7 +46,7 @@ const BlogPost = () => {
 
         <div className=" pe-[21px]">
           <img className="rounded-[14px] w-[260px] h-[265px]  "
-            src="/src//assets//Images/blogcard.jpg"
+            src= {blogImg}
             alt="Movie"
           />
         </div>
