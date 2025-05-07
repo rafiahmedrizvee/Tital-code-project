@@ -1,10 +1,12 @@
 import React from 'react';
+import img from '../../../assets/Images/banner2.png'
+
 
 
 const cardData = [
   {
     id: 1,
-    image:'/src//assets//Images//img1.png' ,
+    image:'/src/assets/Images/img1.png' ,
     title: 'Automation Solutions',
     description: 'Boosting efficiency through smart automation and optimized workflows.',
    
@@ -48,7 +50,7 @@ const cardData = [
 
 const Cards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[36px] py-10  ">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] py-10 ps-[40px] ">
       {cardData.map((card) => (
         <div
           key={card.id}
