@@ -7,11 +7,11 @@ const OurServices = () => {
 
      <div className=" bg-secondary px-[20px]">
       <div className="text-center">
-        <h3 className="font-inter text-[24px] font-bold text-primary ">
+        <h3 className="font-inter md:text-[24px] pt-5 text-[12px] font-bold text-primary ">
           Our Services
         </h3>
 
-        <h2 className="font-inter text-[52px] font-bold">Services That We Offer</h2>
+        <h2 className="font-inter md:text-[52px] text-xl font-bold">Services That We Offer</h2>
       </div>
       <div
         className="  bg-center bg-no-repeat w-full bg-cover "

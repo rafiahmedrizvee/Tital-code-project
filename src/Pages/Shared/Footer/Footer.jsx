@@ -6,23 +6,23 @@ const Footer = () => {
           <div className="max-w-7xl mx-auto">
             {/* Stay Connected Section */}
             <div className="mx-auto max-w-md">
-      <strong className="block text-center text-inter text-[36px] font-bold sm:text-3xl text-white">
+      <strong className="block text-center text-inter  font-bold text-sm md:text-3xl text-white">
       Stay Connected With Us.
       </strong>
 
-      <form className="my-[48px]">
+      <form className="md:my-[48px] my-[24px]">
         <div className="relative max-w-lg">
           <label className="sr-only" for="email"> Email </label>
 
           <input
-            className="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+            className="w-full rounded-full border-gray-200 bg-gray-100  p-4 pe-32 text-sm font-medium dark:border-gray-700 dark:bg-gray-800 dark:text-white"
             id="email"
             type="email"
             placeholder="john@doe.com"
           />
 
           <button
-            className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+            className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5  py-3 text-sm font-medium text-white transition hover:bg-blue-700"
           >
             Subscribe
           </button>
@@ -34,9 +34,9 @@ const Footer = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Company Info */}
                 <div>
-                  <img className='text-white' src="/src/assets/Images/Logo 2.png" alt="" />
+                  <img className='text-white w-25 md:w-full' src="/src/assets/Images/Logo 2.png" alt="" />
                   <p className="font-semibold mb-2">TECHNOLOGIES</p>
-                  <p className="text-[#CCCCCC] text-inter text-[16px] font-normal ">
+                  <p className="text-[#CCCCCC] text-inter md:text-[16px] text-[8px] font-normal ">
                     Delivering Excellence in Web And App Development, Hosting, Cybersecurity, Automation, And Custom Software Solutions.
                   </p>
                 </div>
@@ -44,8 +44,8 @@ const Footer = () => {
                 {/* Quick Links */}
                 <div className='flex items-center justify-center'>
                 <div className=''>
-                  <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-                  <ul className="space-y-2">
+                  <h3 className="text-sm md:text-xl font-bold mb-4">Quick Links</h3>
+                  <ul className="space-y-2 text-[10px] md:[20px]">
                     <li><a href="#" className="hover:text-blue-600 transition duration-200">Home</a></li>
                     <li><a href="#" className="hover:text-blue-600 transition duration-200">About Us</a></li>
                     <li><a href="#" className="hover:text-blue-600 transition duration-200">Services</a></li>
@@ -162,8 +162,8 @@ const Footer = () => {
                 <span className="font-semibold">Terms Of Service</span>
               </div>
               <div className="text-center md:text-right">
-                <p>©2024 All Rights Reserved By TitanCode Technologies</p>
-                <a href="#" className="hover:text-blue-600 transition duration-200">Privacy Policy</a>
+                <p>©2024 All Rights Reserved By Rafi Ahmed Rizvee</p>
+                <a href="#" className="hover:text-blue-600 transition duration-200  md:text-xl ">Privacy Policy</a>
               </div>
             </div>
           </div>
